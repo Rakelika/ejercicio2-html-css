@@ -51,4 +51,14 @@ input[type="text"], input[type="email"], input[type="password"] {
     font-weight: 600;
     font-size: 13px;
     margin: 8px 0px;
+
+}
+
+.btn-enviar {
+    border: 2px solid #dadada;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: #bcbcbc;
+    font-size: 14px;
+    font-weight: 600;
 }
