@@ -1,0 +1,54 @@
+h1 {
+    font-family: 'Montaga', serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6em;
+}
+
+a {
+    color: #007c89;
+    text-decoration: none;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+}
+
+::marker {
+    color: #007c89;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.contenedor {
+    margin: 5%;
+    display: inline-flex;
+}
+
+img.logo {
+    width: 180px;
+    padding: 20px;
+}
+
+.cont-formu {
+    padding: 20px;
+    width: 50%;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #dadada;
+}
+
+.form-group p {
+    font-weight: 600;
+    font-size: 13px;
+    margin: 8px 0px;
+}

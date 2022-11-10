@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>HTML CSS Ejercicio 2</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cont-logo">
+            <img class="logo" src="./imagenes/logo-mailchimp.png" alt="Logotipo Mailchimp">
+        </div>
+        <div class="cont-formu">
+            <h1>Welcome to Mailchimp</h1>
+            <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an account? <a href="#">Log in</a></p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <p><label for="Email">Email</label></p>
+                    <p><input type="email" name="email" required></p>
+                </div>
+                <div class="form-group">
+                    <p><label for="username">Username</label></p>
+                    <p><input type="text" name="username" required></p>
+                </div>
+                <div class="form-group">
+                    <p><label for="Email">Password</label></p>
+                    <p><input type="password" name="password" required></p>
+                </div>
+                <div  class="columns">
+                    <div class="column1">
+                        <ul>
+                            <li>One lowercase character</li>
+                            <li>One uppercase character</li>
+                            <li>One number</li>
+                        </ul>
+                    </div>
+                    <div class="column2">
+                        <ul>
+                            <li>One special character</li>
+                            <li>8 characters minimum</li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn-enviar" type="submit">Sign up</button>
+                <div>
+                    <p>By clicking the "Sing Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
