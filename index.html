@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,24 +29,18 @@
                 </div>
                 <div class="form-group">
                     <p><label for="password">Password</label></p>
-                    <p><input type="password" name="password" id="password" minlength="8" pattern="[A-Za-z0-9]+"
-                        required></p>
+                    <p><input type="password" name="password" id="password" minlength="8" pattern="(?=.\d)(?=.[a-z])(?=.[!@#$%^&_=+-])(?=.*[A-Z]).{8,}" required></p>
                 </div>
-                <div  class="columns">
-                    <div class="column1">
-                        <ul>
-                            <li>One lowercase character</li>
-                            <li>One uppercase character</li>
-                            <li>One number</li>
-                        </ul>
-                    </div>
-                    <div class="column2">
-                        <ul>
-                            <li>One special character</li>
-                            <li>8 characters minimum</li>
-                        </ul>
-                    </div>
+                <div>
+                    <ul>
+                        <li>One lowercase character</li>
+                        <li>One uppercase character</li>
+                        <li>One number</li>
+                        <li>One special character</li>
+                        <li>8 characters minimum</li>
+                    </ul>
                 </div>
+                <p><input type="checkbox" name="legal" id="legal"> I don't want to receive emails about new Mailchimp products, best practices, or especial offers.</p>
                 <button class="btn-enviar" type="submit">Sign up</button>
                 <div>
                     <p>By clicking the "Sing Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>

@@ -32,7 +32,7 @@ a:hover {
 }
 
 img.logo {
-    width: 180px;
+    width: 160px;
     padding: 20px;
 }
 
@@ -61,4 +61,15 @@ input[type="text"], input[type="email"], input[type="password"] {
     color: #bcbcbc;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    border: 2px solid #007c89;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: #007c89;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
 }
